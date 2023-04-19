@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Explora&family=Indie+Flower&family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,500;1,400&family=Shantell+Sans:ital,wght@0,300;1,300&display=swap'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DynaPuff', cursive;
+font-family: 'Explora', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Shantell Sans', cursive;
+}
+.outer_box{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left, #3ed8ff, #f640b6)
+}
+.inner_box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    transform: translate(10%);
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 2px 2px 5px black;
+    z-index: 2;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.signup_header{
+    font-size: 0.8rem;
+    color: #555;
+}
+.signup-body{
+        margin: 10px 0;
+}
+.signup-body p{
+    margin: 10px 0  ;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 0.9;
+    font-family: 'DynaPuff', cursive;
+}
+.signup-body p input[type="submit"]{
+    background-color: #06b19b;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: #000605;
+}
+.signup-footer p{
+color: #555;
+text-align: center;
+}
+.signup-footer p a{
+    color: #06b19b;
+}
+.signup-footer p a:hover{
+    color: red;
+}
